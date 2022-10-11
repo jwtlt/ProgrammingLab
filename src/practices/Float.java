@@ -1,6 +1,6 @@
 package practices;
 
-public class Floasadasda {
+public class Float {
 
     public static void main(String[] args) {
         float f1 = (12_345.1>123_45.0)? 12_456 : 124_56.02f;

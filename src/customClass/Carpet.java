@@ -11,6 +11,12 @@ public class Carpet {
         this.isPersian = isPersian;
     }
 
+    public Carpet (int width, int length, int unitPrice){
+        this.width = width;
+        this.length = length;
+        this.unitPrice = unitPrice;
+    }
+
     public double calculateCost(){
         double cost = width * length * unitPrice;
         if(isPersian){
