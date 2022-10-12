@@ -67,9 +67,6 @@ public class Switch_VendingMachine {
                 System.out.print("Your current balance is: " + (giftcard - 60) +"$");
                 break;
             case "Charger":
-                System.out.println("Thank you for your purchase! ");
-                System.out.print("Your current balance is: " + (giftcard - 25) +"$");
-                break;
             case "Hat":
                 System.out.println("Thank you for your purchase! ");
                 System.out.print("Your current balance is: " + (giftcard - 25) +"$");
@@ -79,6 +76,7 @@ public class Switch_VendingMachine {
                 System.out.print("Your current balance is: " + (giftcard - 30) +"$");
                 break;
             case "Laptop":
+            case "Smartphone":
                 System.out.print("Sorry, not enough funds on your gift card!");
                 break;
             case "Pants":
@@ -88,9 +86,6 @@ public class Switch_VendingMachine {
             case "Pillow":
                 System.out.println("Thank you for your purchase! ");
                 System.out.print("Your current balance is: " + (giftcard - 40) +"$");
-                break;
-            case "Smartphone":
-                System.out.print("Sorry, not enough funds on your gift card!");
                 break;
             case "Socks":
                 System.out.println("Thank you for your purchase! ");
